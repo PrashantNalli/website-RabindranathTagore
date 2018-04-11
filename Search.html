@@ -1,0 +1,143 @@
+<html>
+<head>
+<Title>Search</title>
+<link rel="stylesheet" href="main.css">
+<style>
+th, td {
+    border-width: 3px;
+border-style:solid;
+border-color:white;
+padding: 15px;
+    text-align: center;
+
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+<div class="Timage">
+<img src="images/RT.png" alt="Icon" style="width:110px;height:100px;">
+</div>
+<div class="Title">
+<h1 style="Times new Roman">Rabindranath Tagore</h1>
+</div>
+<div>
+<ul>
+<li><a class="menu" href="Home.html">Home</a></li>
+<li><a class="menu" href="visualArt.html">Visual Art</a></li>
+<li><a class="menu" href="WrittenWork.html">Written work</a></li>
+
+<li><a class="menu" href="Search.html">Search</a></li>
+<li><a class="menu" href="About.html">About</a></li>
+<li><a class="menu" href="ContactUs.html">Contact us</a></li>
+</ul>
+</div>
+<div class="footer">
+<p class="leftFooter">Contact Information:<br>
+Prashant Nalli<br>
+125 Parkway Forest Drive<br>
+Toronto, ON, M2J 1L9.<br>
+</p>
+</div>
+<div style="position: absolute; margin:200 550;">
+<form>
+<input type="text" name="search input">
+<input type="submit" value="Search">
+</form>
+</div>
+<div style="position: absolute; margin:200 300">
+<br><br>
+<form>
+<input type="checkbox" name="Search poems" value="poetry"> Poetry <br>
+<input type="checkbox" name="Search Visual art" value="art"> art <br>
+<input type="checkbox" name="search novels" value="novels">novels<br>
+<input type="checkbox" name="Search Philosophy" value="philosophy">Philosphy<br>
+<input type="checkbox" name="Search Biography" value="Biography">Biography<br>
+</form>
+</div>
+<div style="position: absolute; margin:200 400">
+<br><br>
+<form>
+<input type="radio" name="most Popular">Most popular<br>
+<input type="radio" name="most viewed">Most Viewed<br>
+<input type="radio" name="Chronological">Chronological<br>
+</form>
+</div>
+<div style="position: absolute; margin: 400 200">
+<table style="width:100%; border:2px solid;">
+<tr>
+<th></th>
+<th colspan="15">Search Results</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>1.</td>
+<td colspan="15">Where the mind is without fear</td>
+<td>Poem</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="15"><p>Where the mind is without fear and the head is held high<br>
+Where knowledge is free<br>
+Where the world has not been broken up into fragments<br>
+By narrow domestic walls<br>
+Where words come out from the depth of truth<br>
+Where tireless striving stretches its arms towards perfection<br>
+Where the clear stream of reason has not lost its way<br>
+Into the dreary desert sand of dead habit<br>
+Where the mind is led forward by thee<br>
+Into ever-widening thought and action<br>
+Into that heaven of freedom, my Father, let my country awake.</p></td>
+</tr>
+<tr>
+<td>2</td>
+<td colspan="15">Unending Love</td>
+<td>poem</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="15"><p>I seem to have loved you in numberless forms, numberless times…<br>
+In life after life, in age after age, forever.<br>
+My spellbound heart has made and remade the necklace of songs,<br>
+That you take as a gift, wear round your neck in your many forms,<br>
+In life after life, in age after age, forever.<br></p>
+</td>
+</tr>
+<tr>
+<td>3.</td>
+<td colspan="15">Veiled woman</td>
+<td>Painting</td>
+</tr>
+<tr>
+<td></td>
+<td><img src="images/RTP1.jpg" style="width:200px; height: 300px;"></td>
+</tr>
+<table>
+</div>
+<div class="pagination" style="position:absolute;margin:100 100">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>

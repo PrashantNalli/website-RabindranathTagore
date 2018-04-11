@@ -1,0 +1,71 @@
+div.Timage {
+	position: Fixed;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 0;
+    border: ;  
+}
+div.Title {
+	position: Fixed;
+    display: inline-block;
+    width: 97%;
+    height: 80px;
+    margin: 0 0;
+	padding: 0 0;
+	border: ;
+	text-align: center;
+}
+h1 {
+	color:white;
+}
+
+ul {
+	position: fixed;
+	list-style-type: none;
+	width:100%;
+	margin: 100 0;
+	padding: 0 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+body {
+    background: black;
+	color: white;
+	
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: -1000;
+  left: 0;
+  padding: 00.5px;
+  color: white;
+  background-image: url(images/footer.jpg);
+  background-repeat: no-repeat;
+}
+.leftFooter {
+	text-align: left;
+}
